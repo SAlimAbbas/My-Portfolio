@@ -2,7 +2,7 @@
    My personal Porfolio Website
 
 
-      visit here :  https://syedalimabbas-919447.netlify.app/
+      visit here :  https://syedalimabbas.netlify.app/
 
 
 
