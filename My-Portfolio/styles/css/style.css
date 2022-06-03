@@ -886,7 +886,7 @@ section#Projects div.project-header h1:after {
   left: 33%;
   font-size: 18px;
   color: #ece73c;
-  padding: 5px;
+  margin-top: 4px;
   background: #fff;
   -webkit-transform: translateX(-23%);
       -ms-transform: translateX(-23%);
@@ -1239,3 +1239,19 @@ section#ContactMe div.contact-card ul a span {
 /* .fa fa-phone{
   -moz-transform: scaleX(-1);
 } */
+
+.flex_Img{
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and  (max-width: 480px){
+
+  .flex_Img{
+    flex-wrap: wrap;
+  }
+  .max_480{
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+  
