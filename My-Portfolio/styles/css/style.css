@@ -1227,11 +1227,18 @@ section#ContactMe div.contact-card ul a span {
 
 
 .resume-hover{
-  color:white;font-size: 17px;margin-left:40%;background-color:#3c73fb;border-radius: 10px;padding:12px 30px;
+  color:white;
+  font-size: 17px;
+  margin-left:40%;
+  background-color:#3c73fb;
+  border-radius: 10px;
+  padding:12px 30px;
+
 }
 
 .resume-hover:hover{
   color: #3c73fb;
+  transition: 0.5s;
   background-color: white;
   border: 1px solid #3c73fb;
 }
