@@ -912,10 +912,13 @@ section#Projects .cards {
   }
 }
 
+
+
 @media only screen and (max-width: 400px) {
   section#Projects .cards {
     height: 250px;
   }
+    
 }
 
 section#Projects .card1 div.bg-color,
@@ -1189,7 +1192,8 @@ section#ContactMe div.contact-card h3 {
 section#ContactMe div.contact-card ul {
   list-style: none;
   text-align: left;
-  margin-left: 2.5rem;
+  margin-left: 1.5rem;
+  word-wrap: break-word;
 }
 
 section#ContactMe div.contact-card ul li {
@@ -1227,9 +1231,10 @@ section#ContactMe div.contact-card ul a span {
 
 
 .resume-hover{
+
   color:white;
   font-size: 17px;
-  margin-left:40%;
+  /* margin-left:40%; */
   background-color:#3c73fb;
   border-radius: 10px;
   padding:12px 30px;
@@ -1246,12 +1251,18 @@ section#ContactMe div.contact-card ul a span {
 /* .fa fa-phone{
   -moz-transform: scaleX(-1);
 } */
+.about_img{
+  text-align: center;
+  height: 100%;
+  margin-bottom: 10px;
+}
 
 .flex_Img{
-  display: flex;
+  /* display: flex; */
   justify-content: space-around;
 }
 @media only screen and  (max-width: 480px){
+  
 
   .flex_Img{
     flex-wrap: wrap;
@@ -1261,4 +1272,10 @@ section#ContactMe div.contact-card ul a span {
     text-align: center;
   }
 }
-  
+
+.resume-section{
+  gap: 10px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
